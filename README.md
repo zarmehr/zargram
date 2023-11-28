@@ -1,7 +1,7 @@
 
 ### _**Zargram**_
 _**Zargram**_ is a small social network based on rest api that allows 
-you to basic social network procedures such as:  
+you to use basic social network procedures such as:  
 
 -create/update/delete  accounts/posts/comments/reactions  
 -(un)follow/delete friends  
@@ -12,18 +12,18 @@ with http service requests, **gorm** for operations with database,
 postgreSQL, and jwt for authorization. For a design pattern I used **dependency injection**  
 
 Requirements:
-1. CRUD для пользователей 
-2. CRUD для постов  
-3. CRUD для сторисов
-4. CRUD для комментариев 
-5. Подписаться на пользователя
-6. Отписаться от пользователя 
-7. CRUD для подписчиков       
-8. Архивировать пост         
-9. Ставить реакции на посты
-10. Показ количества реакции
-11. Прикрепить аватарку     
-12. Сохранить пост другого пользователя
-13. Поиск пользователя    
+1. CRUD for users 
+2. CRUD for posts  
+3. CRUD for stories
+4. CRUD for comments
+5. Add a friend
+6. Unfriend user 
+7. CRUD for followers      
+8. Sends post to archive         
+9. Reactions to posts
+10. Number of reactions
+11. Uploads avatar   
+12. Save post of another user
+13. Search Users   
 
 
